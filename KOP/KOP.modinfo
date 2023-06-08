@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a9f188c0-f26a-4d5e-86b2-15a39972c298" version="1">
+  <Properties>
+    <Name>Kingdom_Of_Praeselis</Name>
+    <Description>New civilization that focused on naval dominance.</Description>
+    <Created>1686076243</Created>
+    <Teaser>Custom civ</Teaser>
+    <Authors>Bach Chiu</Authors>
+    <SpecialThanks>maconnolly, Dudeorama</SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>Leader/Leader_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>Core/Civilization_Localisation.sql</File>
+      <File>Leader/Leader_Localisation.sql</File>
+    </UpdateText>
+    <UpdateColors id="NewAction">
+      <File>Core/Civilization_Colors.sql</File>
+      <File>Leader/Leader_Colors.sql</File>
+    </UpdateColors>
+    <UpdateArt id="NewAction">
+      <File>Kingdom_Of_Praeselis.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="UpdateIcons">
+      <File>Core/NewIcons.sql</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>Core/Civilization_Config.sql</File>
+      <File>Leader/Leader_Core.sql</File>
+      <File>Core/Civilization_UA.sql</File>
+      <File>Core/Civilization_UB.sql</File>
+      <File>Core/Civilization_UU.sql</File>
+      <File>Leader/Leader_UA.sql</File>
+      <File>Leader/Leader_Agenda.sql</File>
+      <File>Leader/Leader_Screens.sql</File>
+      <File>Core/Civilization_HistoricMoments.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="NewAction">
+      <File>Leader/Leader_Colors.sql</File>
+      <File>Core/Civilization_Colors.sql</File>
+    </UpdateColors>
+    <UpdateText id="NewAction">
+      <File>Core/Civilization_Localisation.sql</File>
+      <File>Leader/Leader_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="NewIcons">
+      <File>Core/NewIcons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="NewAction">
+      <File>Kingdom_Of_Praeselis.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Core/Civilization_Colors.sql</File>
+    <File>Core/Civilization_Config.sql</File>
+    <File>Core/Civilization_HistoricMoments.sql</File>
+    <File>Core/Civilization_Localisation.sql</File>
+    <File>Core/Civilization_UA.sql</File>
+    <File>Core/Civilization_UB.sql</File>
+    <File>Core/Civilization_UU.sql</File>
+    <File>Core/NewIcons.sql</File>
+    <File>Kingdom_Of_Praeselis.dep</File>
+    <File>Leader/Leader_Agenda.sql</File>
+    <File>Leader/Leader_Colors.sql</File>
+    <File>Leader/Leader_Config.sql</File>
+    <File>Leader/Leader_Core.sql</File>
+    <File>Leader/Leader_Localisation.sql</File>
+    <File>Leader/Leader_Screens.sql</File>
+    <File>Leader/Leader_UA.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+  </Files>
+</Mod>
